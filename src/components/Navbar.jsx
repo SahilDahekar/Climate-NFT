@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <nav className={navColor ? "fixed top-0 bg-[#ffffff99] backdrop-blur transition-all inset-x-0 mx-auto flex justify-between items-center w-[100%] px-6 py-3 z-10" : "fixed top-0 transition-all inset-x-0 mx-auto flex justify-between items-center w-[100%] px-6 py-3 z-10"}>
-        <div className="flex justify-between items-center w-[100%] max-w-[1250px]">
+        <div className="flex justify-between items-center w-[100%] max-w-[1250px] mx-auto">
           <Link to="/"><h1 className="text-5xl text-[#000] font-normal">ClimFT</h1></Link>
           <ul className="flex gap-4 text-2xl">
               <Link to="/nft">
